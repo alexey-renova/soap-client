@@ -90,6 +90,7 @@ class Xml
     public static function fromStream(StreamInterface $stream): Xml
     {
         $xml = new DOMDocument();
+        $stream->seek(0, SEEK_SET);
         $xml->loadXML($stream->getContents());
 
         return new static($xml);
