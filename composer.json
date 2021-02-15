@@ -1,5 +1,5 @@
 {
-  "name": "phpro/soap-client",
+  "name": "renova/soap-client",
   "description": "A general purpose SoapClient library",
   "keywords": ["soap"],
   "license": "MIT",
