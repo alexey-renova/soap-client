@@ -1,5 +1,6 @@
 {
   "name": "renova/soap-client",
+  "version": "1.1.4",
   "description": "A general purpose SoapClient library",
   "keywords": ["soap"],
   "license": "MIT",
